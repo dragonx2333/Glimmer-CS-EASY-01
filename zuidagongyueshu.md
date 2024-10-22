@@ -4,9 +4,9 @@
 #include <stdio.h>
 int main()
 {
-    int m = 0;
-    int n = 0;
-    int r = 0;
+    unsigned int m = 0;
+    unsigned int n = 0;
+    unsigned int r = 0;
     scanf_s("%d %d", &m, &n);
     while (m%n)
     {
